@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  background-color: rgb(14, 207, 156);
+  color: azure;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: start;
+  width: 500px;
+  background-color: blanchedalmond;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.first {
+  margin: 30px;
+}
+.second {
+  margin: 30px;
+}
+.third {
+  margin: 30px;
+}
+label {
+  display: block;
+}
+tr,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}

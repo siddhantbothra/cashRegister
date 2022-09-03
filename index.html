@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-header">
+        <h1>Cash Register</h1>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="first">
+        <label for="bill-amount">Bill Amount</label>
+        <input type="text" id="bill-amount" />
+      </div>
+      <div class="second">
+        <label for="cash-given">Cash Given</label>
+        <input type="text" id="cash-given" />
+      </div>
+      <div class="button">
+        <button id="cash-btn">Check</button>
+      </div>
+      <div class="third">
+        <table id="cash-table">
+          <!-- <tr>
+            <th>No.of Notes given</th>
+            <td id="content"></td>
+          </tr>
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>200</td>
+            <td>100</td>
+            <td>50</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr> -->
+        </table>
+      </div>
+      <div class="four">
+        <h1 class="invalid-amount"></h1>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
